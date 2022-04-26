@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+
+.card-container {
+    grid-area: 2 / 2 / 8 / 5;
+}
+
+.image-container {
+    grid-area: 2 / 2 / 4 / 5;
+}
+
+.order-info {
+    grid-area: 4 / 2 / 6 / 5;
+}
+
+.btn-container {
+    grid-area: 6 / 2 / 8 / 5;
+}
+
+.container {
+    background: url(./images/pattern-background-desktop.svg);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 12px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-container {
+    background-color: white;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 290.58px;
+    border-radius: 12px;
+    padding: 3px;
+}
+
+.order-info {
+    padding: 12px;
+}
+
+.plan {
+    display: flex;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    height: 66px;
+}
+
+.annual-plan {
+    font-weight: 900;
+}
+
+.rate {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.music-icon {
+    display: grid;
+    align-content: center;
+    padding: 8px;
+}
+
+.price {
+    width: 100%;
+    padding: 6px;
+    display: grid;
+    align-content: center;
+}
+
+.link {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+}
+
+article {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding: 8px;
+}
+
+img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+button {
+    padding: 8px;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: white;
+}
+
+.btn1 {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 900;
+    border-color: white;
+    font-stretch: wider;
+    border: 4px;
+    margin: 3px;
+}
+
+.btn2 {
+    border-color: white;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    border: 4px;
+    margin: 3px;
+}
